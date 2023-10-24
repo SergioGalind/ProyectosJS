@@ -53,8 +53,11 @@ ctx.beginPath();
       ctx.moveTo(100,60);
       ctx.lineTo(110,75);
       ctx.stroke();
+
+
       ctx.beginPath();
-      ctx.moveTo(110,50);
-      ctx.lineTo(110,95);
-      ctx.stroke();
+      ctx.fillRect(150, 150,);
+      ctx.fillStyle = "yellow";
+      ctx.fillRect(100, 100, 50, 25);
+
 
