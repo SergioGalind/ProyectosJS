@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +12,33 @@
             height: 100vh;
             display: grid;
             place-items: center;
-            background-color: gray;
-            
+            background-color: black;
+            color: azure;
         }
+
         .container {
             width: 70%;
             text-align: center;
         }
+
         .container * {
             margin: 10px;
         }
+
         #lienzo {
-            background-color: rgb(102, 144, 192);
+            background-color: black;
+            border: 2px solid #000; 
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1 style="color: rebeccapurple;">Gráficos 2D Canvas HTML y JavaScript</h1>
-        <canvas id="lienzo" width="400" height="400"></canvas>
+        <h1>Gráficos 2D Canvas HTML y JavaScript</h1>
+    
+        <canvas id="lienzo" width="650" height="400"></canvas> 
     </div>
-    <script src="./app2.js"></script>
+    <script src="./.js"></script>
 </body>
+
 </html>
